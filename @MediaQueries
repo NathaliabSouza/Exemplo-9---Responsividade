@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(155, 94, 94, 0.336);
+}
+.titulo1 {
+    background-color: brown;
+    color: rgb(238, 217, 217);
+    padding: 16px;
+    text-align: center;
+}
+@media screen and (max-width:1280px){
+    body{
+        background-color: lightcoral;
+
+    }
+    .titulo1{
+        background-color: azure;
+        color: brown;
+    }
+}
